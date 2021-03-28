@@ -1,6 +1,6 @@
 /**********************************************************
  *                                                        *
- *                sma-compressible.cpp                    *
+ *                smaiso-wcomp.cpp                        *
  *                                                        *
  *     Author: Eduardo Vitral Freigedo                    *
  *     Last mod: 03/27/2021                               *
@@ -181,7 +181,7 @@ int main(int argc, char* argv[]) {
 
   std::string strPsi = "psi";
 	
-  std::string strLoad = "/oasis/scratch/comet/evitral/temp_project/compressible/test/flatL-rho100to1-zeta1-nw8-nu";
+  std::string strLoad = "/box/flatL-rho100to1-zeta1-nw8-nu";
 	
   strLoad += argv[1] + std::string("-e0d") + argv[2] 
     + std::string("/save/");
@@ -195,7 +195,7 @@ int main(int argc, char* argv[]) {
 
   std::ofstream *swt_output;
 
-  std::string strBox = "/oasis/scratch/comet/evitral/temp_project/compressible/test/flatL-rho100to1-zeta1-nw8-nu";
+  std::string strBox = "/box/flatL-rho100to1-zeta1-nw8-nu";
 
   strBox += argv[1] + std::string("-e0d") + argv[2] 
     + std::string("/");
